@@ -13,6 +13,8 @@
 		19C6EB3C24977070000FB918 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C6EB3A24977070000FB918 /* Main.storyboard */; };
 		19C6EB3E24977072000FB918 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19C6EB3D24977072000FB918 /* Assets.xcassets */; };
 		19C6EB4124977072000FB918 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C6EB3F24977072000FB918 /* LaunchScreen.storyboard */; };
+		19C6EB492497712E000FB918 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C6EB482497712E000FB918 /* Model.swift */; };
+		19C6EB4B249776DE000FB918 /* ModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C6EB4A249776DE000FB918 /* ModelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		19C6EB3D24977072000FB918 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19C6EB4024977072000FB918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19C6EB4224977072000FB918 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19C6EB482497712E000FB918 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		19C6EB4A249776DE000FB918 /* ModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				19C6EB3424977070000FB918 /* AppDelegate.swift */,
 				19C6EB3624977070000FB918 /* SceneDelegate.swift */,
 				19C6EB3824977070000FB918 /* ViewController.swift */,
+				19C6EB4A249776DE000FB918 /* ModelView.swift */,
 				19C6EB3A24977070000FB918 /* Main.storyboard */,
 				19C6EB3D24977072000FB918 /* Assets.xcassets */,
 				19C6EB3F24977072000FB918 /* LaunchScreen.storyboard */,
 				19C6EB4224977072000FB918 /* Info.plist */,
+				19C6EB482497712E000FB918 /* Model.swift */,
 			);
 			path = UnicornPersonalityTest;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 				19C6EB3924977070000FB918 /* ViewController.swift in Sources */,
 				19C6EB3524977070000FB918 /* AppDelegate.swift in Sources */,
 				19C6EB3724977070000FB918 /* SceneDelegate.swift in Sources */,
+				19C6EB492497712E000FB918 /* Model.swift in Sources */,
+				19C6EB4B249776DE000FB918 /* ModelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
