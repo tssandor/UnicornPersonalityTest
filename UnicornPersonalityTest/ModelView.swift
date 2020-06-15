@@ -104,5 +104,29 @@ func calculatePersonalityTypeAndReturnDescription() -> [DescriptionOfPersonality
   descriptionToReturn.append(personalityDescriptionsDictionary[usersPersonalityType.J_or_P]!)
   
   return descriptionToReturn
+}
+
+func getJungianAcronym(forThisPersonality: PersonalityType) -> String {
+  var willReturnThis: String = ""
+  if forThisPersonality.E_or_I == .ee { willReturnThis = willReturnThis + "E+" }
+  if forThisPersonality.E_or_I == .e {  willReturnThis = willReturnThis + "E"  }
+  if forThisPersonality.E_or_I == .ii { willReturnThis = willReturnThis + "I+" }
+  if forThisPersonality.E_or_I == .i {  willReturnThis = willReturnThis + "I"  }
+
+  if forThisPersonality.S_or_N == .ss { willReturnThis = willReturnThis + "S+" }
+  if forThisPersonality.S_or_N == .s {  willReturnThis = willReturnThis + "S"  }
+  if forThisPersonality.S_or_N == .nn { willReturnThis = willReturnThis + "N+" }
+  if forThisPersonality.S_or_N == .n {  willReturnThis = willReturnThis + "N"  }
+
+  if forThisPersonality.T_or_F == .tt { willReturnThis = willReturnThis + "T+" }
+  if forThisPersonality.T_or_F == .t {  willReturnThis = willReturnThis + "T"  }
+  if forThisPersonality.T_or_F == .ff { willReturnThis = willReturnThis + "F+" }
+  if forThisPersonality.T_or_F == .f {  willReturnThis = willReturnThis + "F"  }
+
+  if forThisPersonality.J_or_P == .jj { willReturnThis = willReturnThis + "J+" }
+  if forThisPersonality.J_or_P == .j {  willReturnThis = willReturnThis + "J"  }
+  if forThisPersonality.J_or_P == .pp { willReturnThis = willReturnThis + "P+" }
+  if forThisPersonality.J_or_P == .p {  willReturnThis = willReturnThis + "P"  }
   
+  return willReturnThis
 }

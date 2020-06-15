@@ -46,6 +46,7 @@ class ViewController: UIViewController {
       print(usersPersonalityDescription[3].shortDescription)
       print(usersPersonalityDescription[3].longDescription)
       print(usersPersonalityDescription[3].recommendation)
+      print(getJungianAcronym(forThisPersonality: usersPersonalityType))
     }
   }
   
