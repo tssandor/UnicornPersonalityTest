@@ -63,12 +63,12 @@
 				19C6EB3424977070000FB918 /* AppDelegate.swift */,
 				19C6EB3624977070000FB918 /* SceneDelegate.swift */,
 				19C6EB3824977070000FB918 /* ViewController.swift */,
+				19C6EB482497712E000FB918 /* Model.swift */,
 				19C6EB4A249776DE000FB918 /* ModelView.swift */,
 				19C6EB3A24977070000FB918 /* Main.storyboard */,
 				19C6EB3D24977072000FB918 /* Assets.xcassets */,
 				19C6EB3F24977072000FB918 /* LaunchScreen.storyboard */,
 				19C6EB4224977072000FB918 /* Info.plist */,
-				19C6EB482497712E000FB918 /* Model.swift */,
 			);
 			path = UnicornPersonalityTest;
 			sourceTree = "<group>";
